@@ -80,3 +80,21 @@ body {
     margin-top: 20px;
 }
 
+/* RESPONSIVIDADE: ajustar a tela de acordo com o dispositivo */
+
+/* Reposponsividade para telas de 800px */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsividade para telas de 400px */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
